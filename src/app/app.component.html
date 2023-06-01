@@ -261,13 +261,13 @@
   <div class="card-container">
     <!-- <button class="card" (click)="imageService.prepareCollection('Faces')">Create Faces Collection</button> -->
     <button class="card" (click)="imageService.importCelebrities()">Import Celebrities</button>
-    <button class="card" (click)="imageService.importSpeakers()">Import Speakers</button>
+    <!-- <button class="card" (click)="imageService.importSpeakers()">Import Speakers</button> -->
   </div>
   <div class="card-container">
     <button class="card" (click)="fileInputFaces.click()">Celebrity Search</button>
-    <button class="card" (click)="fileInputSpeakers.click()">Speaker Search</button>
     <input hidden #fileInputFaces type="file" (change)="searchCelebrities($event)">
-    <input hidden #fileInputSpeakers type="file" (change)="searchSpeakers($event)">
+    <!-- <button class="card" (click)="fileInputSpeakers.click()">Speaker Search</button> -->
+    <!-- <input hidden #fileInputSpeakers type="file" (change)="searchSpeakers($event)"> -->
   </div>
 
   <div class="card-container">
